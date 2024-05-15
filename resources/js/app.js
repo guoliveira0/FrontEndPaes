@@ -1,3 +1,6 @@
+import "bootstrap";
 import './bootstrap';
-
-import "~bootstrap/js/bootstrap.js"
+import "./collapseAnimation";
+import.meta.glob([
+    '../img/**',
+]);

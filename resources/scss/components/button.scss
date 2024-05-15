@@ -1,0 +1,37 @@
+.btn {
+    text-transform: uppercase;
+
+    &.btn-outline-primary  {
+        --bs-btn-font-weight: 400;
+        --bs-btn-padding-x: 1.5rem;
+        --bs-btn-padding-y: .75rem;
+        --bs-btn-color: var(--primary-color);
+        --bs-btn-border-color: var(--primary-color);
+        --bs-btn-hover-bg: var(--primary-color);
+        --bs-btn-hover-border-color: var(--primary-color);
+        --bs-btn-active-color: white;
+        --bs-btn-active-bg: var(--primary-color);
+        --bs-btn-active-border-color: var(--primary-color);
+        --bs-btn-border-radius: 1rem;
+        --bs-btn-font-family: var(--text-font-family);
+    }
+
+    &.btn-primary {
+        --bs-btn-bg: var(--primary-color);
+        --bs-btn-font-family: var(--text-font-family);
+        --bs-btn-border-color: var(--primary-color);
+        --bs-btn-hover-bg: var(--primary-color);
+        --bs-btn-hover-border-color: var(--primary-color);
+        --bs-btn-active-bg: var(--primary-color);
+        --bs-btn-active-border-color: var(--primary-color);
+    }
+
+    &.btn-lg {
+        --bs-btn-padding-x: 2rem;
+        --bs-btn-padding-y: 1rem;
+    }
+
+    &.btn-sm {
+        --bs-btn-font-size: .8rem;
+    }
+}
