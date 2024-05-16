@@ -7,8 +7,10 @@
     </div>
 
     <div class="bg-light shadow rounded-bottom">
-        <div class="collapse p-3" id="card{{ $index }}-content">
-            {{ $value }}
+        <div class="collapse" id="card{{ $index }}-content">
+            <div class="p-3">
+                {{ $value }}
+            </div>
         </div>
     </div>
 </div>
