@@ -1,4 +1,4 @@
-<section id="sobre" class="container my-6">
+<section id="sobre" class="container my-md-6 mt-6">
     <div id="title-initial-section">
         <p class="text-uppercase fw-bold fs-1">
             conheça o <span id="paes-initial-section">paes</span>

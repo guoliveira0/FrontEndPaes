@@ -1,5 +1,5 @@
 <section id="duvidas">
-    @include('components.section-title', ['title' => "dúvidas frequetes"])
+    @include('components.section-title', ['title' => "dúvidas frequentes"])
 
     <div class="container">
         @php

@@ -1,18 +1,30 @@
-#container-navbar {
-    border-bottom: solid #3cb0f2;
-}
 .nav-link:hover {
     border-bottom: #5fa8d1 solid 2px;
 }
 .nav-link:active {
     color: #5fa8d1;
 }
-footer{
-    background-color: #3175C7;
+
+#footer-logo {
+    width: 20%;
 }
-#image-footer{
-    border-bottom: #FFFFFF solid 2px;
+
+@media (max-width: 768px) {
+    #footer-logo {
+        width: 25%;
+    }
+
+    .nav-link:hover {
+        border-bottom:none;
+    }
 }
+
+@media (max-width: 526px) {
+    #footer-logo {
+        width: 50%;
+    }
+}
+
 #paes-initial-section{
     color: #3175C7;
 }
@@ -35,9 +47,4 @@ footer{
 }
 .modal-title{
     font-family: "Montserrat", sans-serif;
-}
-@media (max-width: 768px) {
-    .nav-link:hover {
-        border-bottom:none;
-    }
 }

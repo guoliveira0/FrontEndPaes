@@ -1,8 +1,17 @@
-<footer class="text-center text-lg-start text-muted">
-  <section class="d-flex flex-column justify-content-center p-5" >
-    <a id="image-footer" class="text-center p-5" href=""><img src="{{ Vite::asset('resources/img/logo.svg') }}" alt="logo"></a>
-  </section>
-  <div class="text-center p-3 text-white">
-    <p>Copyright © 2024 COTEPS - DIRETORIA DE TECNOLOGIA DA INFORMAÇÃO</p>
-  </div>
+<footer class="bg-primary p-4">
+    <div class="d-flex justify-content-center">
+        <img src="{{ Vite::asset('resources/img/logo.svg') }}" id="footer-logo" alt="logo">
+    </div>
+    
+    <hr class="opacity-100 container border-2 border-light">
+
+    <div>
+        <p class="text-center text-white m-0 fs-6">
+            Copyright &copy; 2024 
+
+            <span class="text-uppercase">
+                COTEPS - DIRETORIA DE TECNOLOGIA DA INFORMAÇÃO
+            </span>
+        </p>
+    </div>
 </footer>
