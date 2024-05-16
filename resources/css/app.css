@@ -1,6 +1,56 @@
 @import url("~bootstrap/css/bootstrap.min.css");
-#body-background{
-  background-image: linear-gradient(to right, #6CA5DF, #E3F7FF);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+#container-navbar {
+  border-bottom: solid #3cb0f2;
 }
-
-
+.nav-link:hover {
+    border-bottom: #5fa8d1 solid 2px;
+}
+.nav-link:active {
+  color: #5fa8d1;
+}
+footer{
+  background-color: #3175C7;
+}
+#image-footer{
+  border-bottom: #FFFFFF solid 2px;
+}
+#title-initial-section{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 56px;
+}
+#text-inital-section{
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 20px;
+}
+#paes-initial-section{
+  color: #3175C7;
+}
+.modalBtn{
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
+}
+.modalBtn:hover{
+background-color: #3cb0f2;
+color: #FFFFFF;
+}
+#recomend-btn{
+  color: #3cb0f2;
+}
+.modalBtn:hover #recomend-btn{
+  color:#FFFFFF;
+}
+.modal-header{
+  border-bottom: none;
+}
+.modal-title{
+  font-family: "Montserrat", sans-serif;
+}
+@media (max-width: 768px) {
+  .nav-link:hover {
+      border-bottom:none;
+  }
+  }
