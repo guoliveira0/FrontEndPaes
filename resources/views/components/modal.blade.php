@@ -14,8 +14,9 @@
                     </section>
 
                     <section>
-                        <p>01/06/2024 - 31/09/2024</p>
+                        <p id="date-button">01/06/2024 - 31/09/2024</p>
                     </section>
+               
                 </button>
 
                 <button type="button" class="btn btn-light d-flex flex-row justify-content-between modalBtn">
