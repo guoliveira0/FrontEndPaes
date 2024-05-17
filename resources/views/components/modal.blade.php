@@ -7,7 +7,7 @@
             </div>
 
             <div class="modal-body d-flex flex-column d-grid gap-3">
-                <button type="button" class="btn btn-light  d-flex flex-row justify-content-between modalBtn">
+                <button type="button" id="pre_inscricao" class="btn btn-light  d-flex flex-row justify-content-between modalBtn">
                     <section>
                         <p class="m-0">PRÉ-INSCRIÇÃO</p>
                         <p id="recomend-btn">(Recomendado)</p>
@@ -19,7 +19,7 @@
                
                 </button>
 
-                <button type="button" class="btn btn-light d-flex flex-row justify-content-between modalBtn">
+                <button type="button" id="inscricao" class="btn btn-light d-flex flex-row justify-content-between modalBtn">
                     <section>
                         <p>INSCRIÇÃO</p>
                     </section>
@@ -29,7 +29,7 @@
                     </section>
                 </button>
 
-                <button type="button" class="btn btn-light d-flex flex-row justify-content-between modalBtn">
+                <button type="button" id="provas" class="btn btn-light d-flex flex-row justify-content-between modalBtn">
                     <section>
                         <p>PROVAS</p>
                     </section>

@@ -7,6 +7,7 @@ import './bootstrap';
 // Importando os scripts dos componentes
 import "./collapseAnimation";
 import "./openModal";
+import "./sendCoordinates";
 
 // Importando os assets imagéticos do site
 import.meta.glob([

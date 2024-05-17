@@ -1,3 +1,7 @@
+document.querySelectorAll("button.modalBtn").forEach(item => {
+    item.addEventListener('click', () => { sendCoordinates(item.id) });
+});
+
 /**
  * @type {Object}
  * Mapa dos estágios que podem ser escolhidos
@@ -26,14 +30,14 @@ const stageMap = {
  * @param {String} APP_TOKEN Token do APP Laravel
  * @returns {void}
  */
-function sendCoordinates(stage, JOGO_URL, APP_TOKEN) {
+function sendCoordinates(stage) {
     const obj = {
         x: stageMap[stage].x,
         y: stageMap[stage].y,
         stage: stage,
-        token: APP_TOKEN
+        token: import.meta.env.VITE_APP_TOKEN
     }
 
     localStorage.setItem('coordinates', JSON.stringify(obj));
-    location.href = JOGO_URL;
+    location.href = import.meta.env.VITE_JOGO_URL;
 }
