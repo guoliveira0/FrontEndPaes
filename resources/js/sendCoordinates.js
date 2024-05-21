@@ -1,3 +1,6 @@
+/**
+ * Configurando os eventos de click dos botões para enviar as coordenadas
+ */
 document.querySelectorAll("button.modalBtn").forEach(item => {
     item.addEventListener('click', () => { sendCoordinates(item.id) });
 });
@@ -26,8 +29,6 @@ const stageMap = {
 /**
  * 
  * @param {String} stage Estágio que o player deseja iniciar o jogo
- * @param {String} JOGO_URL URL do jogo na plataforma PlayCanvas
- * @param {String} APP_TOKEN Token do APP Laravel
  * @returns {void}
  */
 function sendCoordinates(stage) {
@@ -38,6 +39,7 @@ function sendCoordinates(stage) {
         token: import.meta.env.VITE_APP_TOKEN
     }
 
+    document.cookie = "stage=" + stage;
     localStorage.setItem('coordinates', JSON.stringify(obj));
     location.href = import.meta.env.VITE_JOGO_URL;
 }

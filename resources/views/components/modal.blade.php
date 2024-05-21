@@ -7,7 +7,7 @@
             </div>
 
             <div class="modal-body d-flex flex-column d-grid gap-3">
-                <button type="button" id="pre_inscricao" class="btn btn-light  d-flex flex-row justify-content-between modalBtn">
+                <button type="button" id="pre_inscricao" class="btn btn-light d-flex flex-row justify-content-between modalBtn">
                     <section>
                         <p class="m-0">PRÉ-INSCRIÇÃO</p>
                         <p id="recomend-btn">(Recomendado)</p>
