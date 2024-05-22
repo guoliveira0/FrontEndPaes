@@ -1,0 +1,20 @@
+.modalBtn{
+  font-family: var(text-font-family);
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.5);
+}
+.modalBtn:hover{
+  background-color: var(--secundary-color);
+  color: var(--text-title-color);
+}
+#recomend-btn{
+  color: var(--terciary-color);
+}
+.modalBtn:hover #recomend-btn{
+  color: var(--text-title-color);
+}
+.modal-header{
+  border-bottom: none;
+}
+.modal-title{
+  font-family: var(text-font-family);
+}

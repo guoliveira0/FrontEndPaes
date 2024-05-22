@@ -1,0 +1,31 @@
+
+#footer-logo {
+    width: 20%;
+}
+
+@media (max-width: 768px) {
+    #footer-logo {
+        width: 25%;
+    }
+
+    .nav-link:hover {
+        border-bottom:none;
+    }
+}
+
+@media (max-width: 526px) {
+    #footer-logo {
+        width: 50%;
+    }
+    #recomend-btn{
+        font-size: 10px;
+    }
+    #date-button{
+        font-size: 12px;
+    }
+
+}
+
+#paes-initial-section{
+    color: var(--primary-color);
+}

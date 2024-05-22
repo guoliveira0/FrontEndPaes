@@ -1,3 +1,15 @@
+// Importando o módulo de boot da aplicação
+import "bootstrap";
+
+// Importando a biblioteca do bootstrap
 import './bootstrap';
 
-import "~bootstrap/js/bootstrap.js"
+// Importando os scripts dos componentes
+import "./collapseAnimation";
+import "./openModal";
+import "./sendCoordinates";
+
+// Importando os assets imagéticos do site
+import.meta.glob([
+    '../img/**',
+]);

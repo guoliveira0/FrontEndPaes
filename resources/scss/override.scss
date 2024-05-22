@@ -1,0 +1,19 @@
+@import './variables.scss';
+@import './components/body.scss';
+@import './components/button.scss';
+@import './components/font.scss';
+@import './components/title.scss';
+@import './components/navbar.scss';
+@import './components/modal.scss';
+
+section {
+    overflow-x: hidden;
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+}
+
+.transition {
+    transition: 0.2s;
+}
